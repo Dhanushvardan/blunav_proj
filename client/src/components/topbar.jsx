@@ -21,7 +21,7 @@ export default function Topbar() {
   });
   return (
     <div className="topbar">
-      <div className="titleBar">AICOM / Map view</div>
+      <div className="titleBar">AMCOMS / Map view</div>
       <div className="timeBar">
         {checked ? (
           <div className="dateSpace">{date.toUTCString()}</div>

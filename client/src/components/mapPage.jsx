@@ -37,12 +37,12 @@ export default function MapPage() {
   const [arLen, setArLen] = useState(0);
   const mapRef = useRef();
   const icon = new L.icon({
-    iconUrl: require("../fvv.jpg"),
+    iconUrl: require("../plane.png"),
     iconSize: [35, 45],
   });
   const getData = async () => {
     try {
-      var v = await axios.get("https://backend-kafka.onrender.com/input");
+      var v = await axios.get("http://localhost:5000/input");
       setArLen(v.data.length);
       setLat1(v.data[0]);
       setLon1(v.data[1]);
