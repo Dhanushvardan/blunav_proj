@@ -42,7 +42,7 @@ export default function MapPage() {
   });
   const getData = async () => {
     try {
-      var v = await axios.get("http://localhost:5000/input");
+      var v = await axios.get("https://backend-kafka.onrender.com/input");
       setArLen(v.data.length);
       setLat1(v.data[0]);
       setLon1(v.data[1]);
