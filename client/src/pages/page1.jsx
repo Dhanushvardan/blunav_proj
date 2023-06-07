@@ -1,4 +1,5 @@
 import React from "react";
+import GridPage from "./gridpage.jsx";
 import SideBar from "../components/sidebar";
 import TopBar from "../components/topbar";
 import "../pages/page1.scss";
@@ -10,7 +11,7 @@ export default function Page1() {
         <SideBar />
         <div className="colLayout">
           <TopBar />
-          page 1 under construction
+          <GridPage />
         </div>
       </div>
     </div>
