@@ -1,5 +1,5 @@
 .topbar {
-    height: 7vh;
+    height: 5vh;
     width: 96vw;
     background-color: black;
     display: flex;
@@ -8,7 +8,7 @@
         width: 20vw;
         background-color: black;
         display: flex;
-        margin-top: 2vh;
+        margin-top: 1vh;
         font-family: 'Dancing Script', cursive;
         font-family: 'Poor Story', cursive;
         font-size: large;
@@ -17,8 +17,7 @@
         justify-content: center;
     }
     .timeBar {
-        margin-top: 1vh;
-        height: 7vh;
+        height: 5vh;
         width: 40vw;
         margin-left: 40vw;
         background-color: black;
@@ -29,11 +28,11 @@
         //     margin-top: 1vh;
         // }
         .dateSpace {
-            height: 7vh;
+            height: 5vh;
             font-size: large;
             width: 30vw;
-            color: white;
             margin-top: 1vh;
+            color: white;
             font-family: 'Dancing Script', cursive;
             font-family: 'Poor Story', cursive;
             font-family: 'Roboto', sans-serif;
